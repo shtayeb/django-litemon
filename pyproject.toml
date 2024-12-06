@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-litemon"
+version = "0.1"
+dependencies = [
+    "django>=5.0",
+]
+
+description = "A Django monitoring app."
+readme = "README.md"
+requires-python = ">= 3.10"
+
+authors = [
+    {name = "Shahryar Tayeb", email = "shahryar.dev@gmail.com"},
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 5.0",  # Replace "X.Y" as appropriate
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+[project.urls]
+Homepage = "https://github.com/shtayeb/django-litemon"
+
+[tool.bandit]
+# exclude_dirs = ["tests","docs"]
+# exclude = ["test_*"]
