@@ -7,7 +7,6 @@ Detailed documentation is in the "docs" directory.
 
 
 ## Quick start
------------
 
 1. Add "django_litemon" to your INSTALLED_APPS setting like this::
 
@@ -29,4 +28,18 @@ Detailed documentation is in the "docs" directory.
 4. Start the development server and visit the admin to create a poll.
 
 5. Visit the ``/litemon`` URL.
+
+## Development
+Clone repo
+```shell
+git clone https://github.com/shtayeb/django-litemon.git
+```
+
+Test App
+```python
+cd tests
+
+python manage.py runserver
+```
+
 
